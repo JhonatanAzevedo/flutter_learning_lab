@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../animation_header.dart/animation_header_page.dart';
+import '../validation_cpf_cnpj/validation_cpf_cnpj_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -20,6 +21,17 @@ class HomePage extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) => const AnimationHeaderPage(),
+                  ),
+                );
+              },
+            ),
+            ElevatedButton(
+              child: const Text('Validation cpf and cnpj'),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => ValidationCpfCnpjPage(),
                   ),
                 );
               },
