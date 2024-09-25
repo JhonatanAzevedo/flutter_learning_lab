@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../animation_header.dart/animation_header_page.dart';
+import '../animation_header/animation_header_page.dart';
 import '../validation_cpf_cnpj/validation_cpf_cnpj_page.dart';
 
 class HomePage extends StatelessWidget {
