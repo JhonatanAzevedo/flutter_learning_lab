@@ -1,3 +1,4 @@
+import 'package:example/components/pin_authentication_usecase.dart';
 import 'package:example/home.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -41,6 +42,7 @@ class WidgetbookApp extends StatelessWidget {
         HomeUsecase(),
         AnimationHeaderUsecase(),
         TooltipUsecase(),
+        PinAuthenticationUsecase()
       ],
       initialRoute: '/?path=learning-ds',
     );
