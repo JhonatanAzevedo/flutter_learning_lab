@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:widgetbook/widgetbook.dart';
 
 import 'components/animation_header_usecase.dart';
+import 'components/tooltip_usecase.dart';
 
 void main() {
   runApp(const WidgetbookApp());
@@ -38,7 +39,8 @@ class WidgetbookApp extends StatelessWidget {
       ],
       directories: [
         HomeUsecase(),
-        AnimationHeaderUsecase()
+        AnimationHeaderUsecase(),
+        TooltipUsecase(),
       ],
       initialRoute: '/?path=learning-ds',
     );

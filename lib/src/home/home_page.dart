@@ -31,7 +31,7 @@ class HomePage extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => ValidationCpfCnpjPage(),
+                    builder: (context) => const ValidationCpfCnpjPage(),
                   ),
                 );
               },
